@@ -85,7 +85,7 @@ if (isset($_POST['update'])) {
                         </div>
                         <div class="mb-3">
                             <label>Jadwal Praktik</label>
-                            <textarea name="jadwal" class="form-control"><?= $data['jadwal_praktik'] ?></textarea>
+                            <input type="date" name="jadwal" class="form-control" value="<?= $data['jadwal_praktik'] ?>">
                         </div>
                         <div class="mb-3">
                             <label>Nomor Kontak</label>

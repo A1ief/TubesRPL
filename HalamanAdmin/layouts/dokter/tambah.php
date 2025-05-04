@@ -277,7 +277,8 @@ if (isset($_POST['simpan'])) {
                             </div>
                             <div class="mb-3">
                                 <label>Jadwal Praktik</label>
-                                <textarea name="jadwal" class="form-control"></textarea>
+                                <input type="date" name="jadwal" class="form-control">
+                                <!-- <textarea name="jadwal" class="form-control"></textarea> -->
                             </div>
                             <div class="mb-3">
                                 <label>Nomor Kontak</label>
