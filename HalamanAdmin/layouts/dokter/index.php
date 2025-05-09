@@ -22,39 +22,37 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="overflow:hidden">
 
-    <!-- Page Wrapper -->
     <div id="wrapper">
-
-        <!-- Sidebar -->
         <?php include('../../tamplates/sidebar.php'); ?>
 
-        <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-
-            <!-- Main Content -->
             <div id="content">
-
-                <!-- Topbar -->
                 <?php include('../../tamplates/topbar.php'); ?>
 
-                <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dokter</h1>
+                        <h1 class="h3 mb-0 text-gray-800">DOKTER</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
 
-                    <!-- Content -->
                     <div class="card-body">
+                        <a href="tambah.php" class="btn btn-primary mb-3">+ Tambah Dokter</a>
 
-                        <a href="tambah.php" class="btn btn-primary mb-3 ">+ Tambah Dokter</a>
+                        <?php
+                        $limit = 5;
+                        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+                        $offset = ($page - 1) * $limit;
+
+                        $result = $koneksi->query("SELECT * FROM tbl_dokter LIMIT $limit OFFSET $offset");
+                        $total_rows = $koneksi->query("SELECT COUNT(*) AS total FROM tbl_dokter")->fetch_assoc()['total'];
+                        $total_pages = ceil($total_rows / $limit);
+                        ?>
+
                         <div class="table-responsive">
-                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <table class="table table-bordered" width="100%" cellspacing="0">
                                 <thead class="table-primary">
                                     <tr class="text-center">
                                         <th>ID</th>
@@ -65,87 +63,64 @@
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
-                                <tfoot>
-                                    <tr class="text-center">
-                                        <th>ID</th>
-                                        <th>Nama</th>
-                                        <th>Keahlian</th>
-                                        <th>Jadwal Praktik</th>
-                                        <th>Kontak</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </tfoot>
                                 <tbody>
-                                    <?php
-                                    $result = $koneksi->query("SELECT * FROM tbl_dokter");
-                                    while ($row = $result->fetch_assoc()) {
-                                        echo "<tr>
-                                <td>{$row['id_dokter']}</td>
-                                <td>{$row['nama_lengkap']}</td>
-                                <td>{$row['keahlian']}</td>
-                                <td>{$row['jadwal_praktik']}</td>
-                                <td>{$row['nomor_kontak']}</td>
-                                <td>
-                                    <a href='edit.php?id={$row['id_dokter']}' class='btn btn-warning btn-sm'>Edit</a>
-                                    <a href='hapus.php?id={$row['id_dokter']}' class='btn btn-danger btn-sm' onclick=\"return confirm('Yakin ingin hapus?')\">Hapus</a>
-                                </td>
-                            </tr>";
-                                    }
-                                    ?>
+                                    <?php while ($row = $result->fetch_assoc()) : ?>
+                                        <tr>
+                                            <td><?= $row['id_dokter'] ?></td>
+                                            <td><?= $row['nama_lengkap'] ?></td>
+                                            <td><?= $row['keahlian'] ?></td>
+                                            <td><?= $row['jadwal_praktik'] ?></td>
+                                            <td><?= $row['nomor_kontak'] ?></td>
+                                            <td>
+                                                <a href="edit.php?id=<?= $row['id_dokter'] ?>" class="btn btn-warning btn-sm">Edit</a>
+                                                <a href="hapus.php?id=<?= $row['id_dokter'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
+                                            </td>
+                                        </tr>
+                                    <?php endwhile; ?>
                                 </tbody>
                             </table>
                         </div>
+
+                        <nav>
+                            <ul class="pagination justify-content-end">
+                                <?php if ($page > 1) : ?>
+                                    <li class="page-item">
+                                        <a class="page-link" href="?page=<?= $page - 1 ?>">&laquo; Previous</a>
+                                    </li>
+                                <?php endif; ?>
+
+                                <?php for ($i = 1; $i <= $total_pages; $i++) : ?>
+                                    <li class="page-item <?= ($i == $page) ? 'active' : '' ?>">
+                                        <a class="page-link" href="?page=<?= $i ?>"><?= $i ?></a>
+                                    </li>
+                                <?php endfor; ?>
+
+                                <?php if ($page < $total_pages) : ?>
+                                    <li class="page-item">
+                                        <a class="page-link" href="?page=<?= $page + 1 ?>">Next &raquo;</a>
+                                    </li>
+                                <?php endif; ?>
+                            </ul>
+                        </nav>
+
                     </div>
-
-
                 </div>
-                <!-- /.container-fluid -->
-
             </div>
-            <!-- End of Main Content -->
 
-            <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Your Website 2025</span>
                     </div>
                 </div>
             </footer>
-            <!-- End of Footer -->
-
         </div>
-        <!-- End of Content Wrapper -->
-
     </div>
-    <!-- End of Page Wrapper -->
 
-    <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-double-up"></i>
     </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="../index.php">Logout</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript-->
     <?= include('../../tamplates/script.php'); ?>
 
 </body>

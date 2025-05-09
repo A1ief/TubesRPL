@@ -33,9 +33,9 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon">
-                    <i class="fas fa-code"></i>
+                    <i class="fas fa-user-md"></i>
                 </div>
-                <div class="sidebar-brand-text mx-1">Alip</div>
+                <div class="sidebar-brand-text mx-1">KLINIK DIAN KUSUMA WIJAYA</div>
 
             </a>
 
@@ -43,7 +43,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
