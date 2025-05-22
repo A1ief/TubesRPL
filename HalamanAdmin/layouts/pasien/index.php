@@ -71,7 +71,6 @@
                                         <th>ID</th>
                                         <th>Nama</th>
                                         <th>Email</th>
-                                        <th style="width: 130px;">Jenis Kelamin</th>
                                         <th>Nomor Telepon</th>
                                         <th>Alamat</th>
                                         <th style="width: 132px;">Aksi</th>
@@ -82,10 +81,9 @@
                                         <tr>
                                             <td><?= $row['id_pasien'] ?></td>
                                             <td><?= $row['nama_pasien'] ?></td>
-                                            <td><?= $row['email'] ?></td>
-                                            <td class="text-center"><?= $row['jenis_kelamin'] ?></td>
-                                            <td><?= $row['nomor_telepon'] ?></td>
-                                            <td><?= $row['alamat'] ?></td>
+                                            <td><?= $row['email_pasien'] ?></td>
+                                            <td><?= $row['no_telp'] ?></td>
+                                            <td><?= $row['alamat_pasien'] ?></td>
                                             <td>
                                                 <a href="edit.php?id=<?= $row['id_pasien'] ?>" class="btn btn-warning btn-sm">Edit</a>
                                                 <a href="hapus.php?id=<?= $row['id_pasien'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
@@ -98,7 +96,7 @@
 
                         <!-- Pagination -->
                         <nav>
-                            <ul class="pagination justify-content-end">
+                            <ul class="pagination justify-content-end mb-5 pb-5">
                                 <?php if ($page > 1) : ?>
                                     <li class="page-item">
                                         <a class="page-link" href="?page=<?= $page - 1 ?>">&laquo; Previous</a>

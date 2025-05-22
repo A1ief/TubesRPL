@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Medilab Bootstrap Template</title>
+  <title>KLINIK DIAN KUSUMA WIJAYA </title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,8 +36,8 @@
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">Maya@example.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>085259019452</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@gmail.com">KlinikDianKusumaWijaya@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>08113507020</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -54,7 +54,7 @@
         <a href="index.html" class="logo d-flex align-items-center me-auto">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1 class="sitename">Medilab</h1>
+          <h4 class="sitename">KLINIK DIAN KUSUMA WIJAYA </h4>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -104,8 +104,8 @@
       <div class="container position-relative">
 
         <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-          <h2>WELCOME TO MEDILAB</h2>
-          <p>We are team of talented designers making websites with Bootstrap</p>
+          <h2>WELCOME KLINIK DIAN KUSUMA WIJAYA</h2>
+          <p>WE CARE AND CURE FOR HUMANITY</p>
         </div><!-- End Welcome -->
 
         <div class="content row gy-4">
@@ -113,8 +113,7 @@
             <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
               <h3>Why Choose Medilab?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                CATATV
               </p>
               <div class="text-center">
                 <a href="#about" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
@@ -141,7 +140,6 @@
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
                   </div>
                 </div><!-- End Icon Box -->
-
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
                     <i class="bi bi-inboxes"></i>
@@ -154,11 +152,8 @@
             </div>
           </div>
         </div><!-- End  Content-->
-
       </div>
-
     </section><!-- /Hero Section -->
-
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -170,11 +165,10 @@
             <img src="HalamanUtama/assets/img/about.jpg" class="img-fluid" alt="">
             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
           </div>
-
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <h3>About Us</h3>
             <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+              penjelasan
             </p>
             <ul>
               <li>

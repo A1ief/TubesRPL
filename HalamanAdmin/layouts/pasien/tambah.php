@@ -1,12 +1,12 @@
 <?php include('../../../koneksi.php');
 if (isset($_POST['simpan'])) {
     $nama     = $_POST['nama_pasien'];
-    $alamat = $_POST['alamat'];
-    $jk   = $_POST['jenis_kelamin'];
-    $kontak   = $_POST['nomor_telepon'];
+    $email = $_POST['email_pasien'];
+    $telp   = $_POST['no_telp'];
+    $alamat   = $_POST['alamat_pasien'];
 
-    $koneksi->query("INSERT INTO tbl_pasien (nama_pasien, alamat, jenis_kelamin, nomor_telepon) 
- VALUES ('$nama', '$alamat', '$jk', '$kontak')");
+    $koneksi->query("INSERT INTO tbl_pasien (nama_pasien, email_pasien, no_telp , alamat_pasien) 
+ VALUES ('$nama', '$email', '$telp', '$alamat')");
     header('Location:index.php');
 }
 ?>
@@ -34,7 +34,7 @@ if (isset($_POST['simpan'])) {
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="overflow:hidden">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -264,7 +264,7 @@ if (isset($_POST['simpan'])) {
                     </div>
 
                     <!-- Content -->
-                    <div class="card-body">
+                    <div class="card-body mb-5 pb-5">
                         <h2>Tambah Pasien</h2>
                         <form method="POST" class="mt-4">
                             <div class="mb-3">
@@ -272,23 +272,19 @@ if (isset($_POST['simpan'])) {
                                 <input type="text" name="nama_pasien" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label>Alamat</label>
-                                <input type="text" name="alamat" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label>Jenis Kelamin</label>
-                                <select name="jenis_kelamin" class="form-control" required>
-                                    <option value="" disabled>-- Pilih Jenis Kelamin --</option>
-                                    <option value="Laki-laki">Laki-laki</option>
-                                    <option value="Perempuan">Perempuan</option>
-                                </select>
+                                <label>Email</label>
+                                <input type="email" name="email_pasien" class="form-control">
                             </div>
                             <div class="mb-3">
                                 <label>Nomor Telepon</label>
-                                <input type="text" name="nomor_telepon" class="form-control">
+                                <input type="number" name="no_telp" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Alamat</label>
+                                <textarea name="alamat_pasien" id="alamat_pasien" name="alamat_pasien" class="form-control"></textarea>
                             </div>
                             <button type="submit" name="simpan" class="btn btn-success">Simpan</button>
-                            <a href="index.php" class="btn btn-secondary">Kembali</a>
+                            <a href="index.php" class="btn btn-secondary ">Kembali</a>
                         </form>
                     </div>
 

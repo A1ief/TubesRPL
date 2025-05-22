@@ -60,7 +60,7 @@
                                         <th>Keahlian</th>
                                         <th>Jadwal Praktik</th>
                                         <th>Kontak</th>
-                                        <th>Aksi</th>
+                                        <th style="width: 132px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -82,7 +82,7 @@
                         </div>
 
                         <nav>
-                            <ul class="pagination justify-content-end">
+                            <ul class="pagination justify-content-end mb-5 pb-5">
                                 <?php if ($page > 1) : ?>
                                     <li class="page-item">
                                         <a class="page-link" href="?page=<?= $page - 1 ?>">&laquo; Previous</a>
