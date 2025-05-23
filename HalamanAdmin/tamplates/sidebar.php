@@ -36,6 +36,13 @@
             <span>Pasien</span></a>
     </li>
 
+    <!-- Nav Item - Obat -->
+    <li class="nav-item">
+        <a class="nav-link" href="../../layouts/obat/index.php">
+            <i class="fas fa-fw fa-tablets"></i>
+            <span>Obat</span></a>
+    </li>
+
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 

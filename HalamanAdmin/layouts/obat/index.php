@@ -9,58 +9,47 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Data Pasien</title>
+    <title>Data Obat</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../../css/sb-admin-2.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top" style="overflow:hidden">
 
-    <!-- Page Wrapper -->
     <div id="wrapper">
-
         <!-- Sidebar -->
         <?php include('../../tamplates/sidebar.php'); ?>
         <!-- End of Sidebar -->
 
-        <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-
-            <!-- Main Content -->
             <div id="content">
-
-                <!-- Topbar -->
                 <?php include('../../tamplates/topbar.php'); ?>
-                <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">PASIEN</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                            <i class="fas fa-download fa-sm text-white-50"></i> Generate Report
-                        </a>
+                        <h1 class="h3 mb-0 text-gray-800">OBAT</h1>
+                        <a href="obat_excel.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
 
-                    <!-- Content -->
                     <div class="card-body">
-
-                        <a href="tambah.php" class="btn btn-primary mb-3">+ Tambah Pasien</a>
+                        <a href="tambah.php" class="btn btn-primary mb-3">+ Tambah Obat</a>
 
                         <?php
-                        // Pagination
                         $limit = 5;
                         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
                         $offset = ($page - 1) * $limit;
 
-                        // Fetch Data
-                        $result = $koneksi->query("SELECT * FROM tbl_pasien LIMIT $limit OFFSET $offset");
-                        $total_rows = $koneksi->query("SELECT COUNT(*) AS total FROM tbl_pasien")->fetch_assoc()['total'];
+                        $result = $koneksi->query("SELECT * FROM tbl_obat LIMIT $limit OFFSET $offset");
+                        $total_rows = $koneksi->query("SELECT COUNT(*) AS total FROM tbl_obat ")->fetch_assoc()['total'];
                         $total_pages = ceil($total_rows / $limit);
                         ?>
 
@@ -68,25 +57,21 @@
                             <table class="table table-bordered" width="100%" cellspacing="0">
                                 <thead class="table-primary">
                                     <tr class="text-center">
-                                        <th>ID</th>
-                                        <th>Nama</th>
-                                        <th>Email</th>
-                                        <th>Nomor Telepon</th>
-                                        <th>Alamat</th>
+                                        <th>Id Obat</th>
+                                        <th>Nama Obat</th>
+                                        <th>Dosis Obat</th>
                                         <th style="width: 132px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php while ($row = $result->fetch_assoc()) : ?>
                                         <tr class="text-center">
-                                            <td><?= $row['id_pasien'] ?></td>
-                                            <td><?= $row['nama_pasien'] ?></td>
-                                            <td><?= $row['email_pasien'] ?></td>
-                                            <td><?= $row['no_telp'] ?></td>
-                                            <td><?= $row['alamat_pasien'] ?></td>
+                                            <td><?= $row['id_obat'] ?></td>
+                                            <td><?= $row['nama_obat'] ?></td>
+                                            <td><?= $row['dosis_obat'] ?></td>
                                             <td>
-                                                <a href="edit.php?id=<?= $row['id_pasien'] ?>" class="btn btn-warning btn-sm">Edit</a>
-                                                <a href="hapus.php?id=<?= $row['id_pasien'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
+                                                <a href="edit.php?id=<?= $row['id_obat'] ?>" class="btn btn-warning btn-sm">Edit</a>
+                                                <a href="hapus.php?id=<?= $row['id_obat'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
                                             </td>
                                         </tr>
                                     <?php endwhile; ?>
@@ -94,7 +79,6 @@
                             </table>
                         </div>
 
-                        <!-- Pagination -->
                         <nav>
                             <ul class="pagination justify-content-end mb-5 pb-5">
                                 <?php if ($page > 1) : ?>
@@ -118,14 +102,9 @@
                         </nav>
 
                     </div>
-
                 </div>
-                <!-- /.container-fluid -->
-
             </div>
-            <!-- End of Main Content -->
 
-            <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
@@ -133,15 +112,9 @@
                     </div>
                 </div>
             </footer>
-            <!-- End of Footer -->
-
         </div>
-        <!-- End of Content Wrapper -->
-
     </div>
-    <!-- End of Page Wrapper -->
 
-    <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-double-up"></i>
     </a>

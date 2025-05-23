@@ -65,7 +65,7 @@
                                 </thead>
                                 <tbody>
                                     <?php while ($row = $result->fetch_assoc()) : ?>
-                                        <tr>
+                                        <tr class="text-center">
                                             <td><?= $row['id_dokter'] ?></td>
                                             <td><?= $row['nama_lengkap'] ?></td>
                                             <td><?= $row['keahlian'] ?></td>
