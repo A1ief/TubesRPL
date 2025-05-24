@@ -4,7 +4,7 @@ $id = $_GET['id'];
 $data = $koneksi->query("SELECT * FROM tbl_dokter WHERE id_dokter = $id")->fetch_assoc();
 
 if (isset($_POST['update'])) {
-    $nama     = $_POST['nama'];
+    $nama     = $_POST['nama_lengkap'];
     $keahlian = $_POST['keahlian'];
     $jadwal   = $_POST['jadwal'];
     $kontak   = $_POST['kontak'];
@@ -77,7 +77,7 @@ if (isset($_POST['update'])) {
                     <form method="POST" class="mt-4">
                         <div class="mb-3">
                             <label>Nama Lengkap</label>
-                            <input type="text" name="nama" value="<?= $data['nama_lengkap'] ?>" class="form-control" required>
+                            <input type="text" name="nama_lengkap" value="<?= $data['nama_lengkap'] ?>" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label>Keahlian</label>

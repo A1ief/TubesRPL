@@ -2,9 +2,10 @@
 if (isset($_POST['simpan'])) {
     $nama_obat    = $_POST['nama_obat'];
     $dosis = $_POST['dosis_obat'];
+    $harga = $_POST['harga'];
 
-    $koneksi->query("INSERT INTO tbl_obat (nama_obat,dosis_obat) 
- VALUES ('$nama_obat', '$dosis')");
+    $koneksi->query("INSERT INTO tbl_obat (nama_obat,dosis_obat,harga) 
+ VALUES ('$nama_obat', '$dosis', $harga)");
     header('Location:index.php');
 }
 ?>
@@ -71,7 +72,11 @@ if (isset($_POST['simpan'])) {
                             </div>
                             <div class="mb-3">
                                 <label>Dosis Obat</label>
-                                <input type="text" name="dosis_obat" class="form-control">
+                                <input type="number" name="dosis_obat" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label>Harga</label>
+                                <input type="number" name="harga" class="form-control" required>
                             </div>
                             <button type="submit" name="simpan" class="btn btn-success">Simpan</button>
                             <a href="index.php" class="btn btn-secondary">Kembali</a>

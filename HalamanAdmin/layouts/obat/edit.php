@@ -22,9 +22,10 @@ $stmt->close();
 if (isset($_POST['update'])) {
     $nama_obat  = $_POST['nama_obat'];
     $dosis_obat = $_POST['dosis_obat'];
+    $harga = $_POST['harga'];
 
-    $stmt = $koneksi->prepare("UPDATE tbl_obat SET nama_obat = ?, dosis_obat = ? WHERE id_obat = ?");
-    $stmt->bind_param("ssi", $nama_obat, $dosis_obat, $id);
+    $stmt = $koneksi->prepare("UPDATE tbl_obat SET nama_obat = ?, dosis_obat = ?, harga = ? WHERE id_obat = ?");
+    $stmt->bind_param("ssii", $nama_obat, $dosis_obat, $harga, $id);
     $stmt->execute();
     $stmt->close();
 
@@ -71,7 +72,11 @@ if (isset($_POST['update'])) {
                             </div>
                             <div class="mb-3">
                                 <label>Dosis Obat</label>
-                                <input type="text" name="dosis_obat" value="<?= $data['dosis_obat'] ?>" class="form-control">
+                                <input type="number" name="dosis_obat" value="<?= $data['dosis_obat'] ?>" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label>Harga</label>
+                                <input type="number" name="harga" value="<?= $data['harga'] ?>" class="form-control" required>
                             </div>
                             <button type="submit" name="update" class="btn btn-success">Simpan</button>
                             <a href="index.php" class="btn btn-secondary">Kembali</a>

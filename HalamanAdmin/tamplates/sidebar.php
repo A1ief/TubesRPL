@@ -22,6 +22,13 @@
     <!-- Divider -->
     <hr class="sidebar-divider">
 
+    <!-- Nav Item - Admin -->
+    <li class="nav-item">
+        <a class="nav-link" href="../../layouts/admin/index.php">
+            <i class="fas fa-fw fa-users"></i>
+            <span>Admin</span></a>
+    </li>
+
     <!-- Nav Item - Charts -->
     <li class="nav-item">
         <a class="nav-link" href="../../layouts/dokter/index.php">
@@ -42,6 +49,21 @@
             <i class="fas fa-fw fa-tablets"></i>
             <span>Obat</span></a>
     </li>
+
+    <!-- Nav Item - Obat -->
+    <li class="nav-item">
+        <a class="nav-link" href="../../layouts/pembayaran/index.php">
+            <i class="fas fa-money-bill-wave-alt"></i>
+            <span>Pembayaran</span></a>
+    </li>
+
+    <!-- Nav Item - Obat -->
+    <li class="nav-item">
+        <a class="nav-link" href="../../layouts/detail/index.php">
+            <i class="fas fa-money-bill-wave-alt"></i>
+            <span>Detail Pembayaran</span></a>
+    </li>
+
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

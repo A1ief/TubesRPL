@@ -1,26 +1,35 @@
 <?php
-// Aktifkan error reporting untuk debugging
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 include('../../../koneksi.php');
 
+if (!isset($_GET['id'])) {
+    header('Location: index.php');
+    exit;
+}
+
+$id = $_GET['id'];
+
+// Ambil data admin berdasarkan ID
+$stmt = $koneksi->prepare("SELECT * FROM tbl_admin WHERE id_admin = ?");
+$stmt->bind_param("i", $id);
+$stmt->execute();
+$result = $stmt->get_result();
+$data = $result->fetch_assoc();
+$stmt->close();
+
+// Update data jika form disubmit
 if (isset($_POST['simpan'])) {
-    // Ambil data dari form
-    $nama     = $_POST['nama_lengkap'];
-    $keahlian = $_POST['keahlian'];
-    $jadwal   = $_POST['jadwal_praktik'];
-    $kontak   = $_POST['nomor_kontak'];
+    $nama   = $_POST['nama_admin'];
+    $email  = $_POST['email_admin'];
+    $telp   = $_POST['no_telp'];
+    $alamat = $_POST['alamat_admin'];
 
-    // Debug jika perlu
-    // echo '<pre>'; print_r($_POST); echo '</pre>'; die();
-
-    // Simpan data ke database
-    $stmt = $koneksi->prepare("INSERT INTO tbl_dokter (nama_lengkap, keahlian, jadwal_praktik, nomor_kontak) VALUES (?, ?, ?, ?)");
-    $stmt->bind_param("ssss", $nama, $keahlian, $jadwal, $kontak);
+    $stmt = $koneksi->prepare("UPDATE tbl_admin SET nama_admin = ?, email_admin = ?, no_telp = ?, alamat_admin = ? WHERE id_admin = ?");
+    $stmt->bind_param("ssssi", $nama, $email, $telp, $alamat, $id);
     $stmt->execute();
     $stmt->close();
 
-    // Redirect
-    header('Location: index.php');
+    header("Location: index.php");
     exit;
 }
 ?>
@@ -78,27 +87,29 @@ if (isset($_POST['simpan'])) {
                     </div>
 
                     <!-- Content -->
-                    <h2>Edit Dokter</h2>
-                    <form method="POST" class="mt-4">
-                        <div class="mb-3">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="nama_lengkap" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label>Keahlian</label>
-                            <input type="text" name="keahlian" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label>Jadwal Praktik</label>
-                            <input type="date" name="jadwal_praktik" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label>Nomor Kontak</label>
-                            <input type="text" name="nomor_kontak" class="form-control" required>
-                        </div>
-                        <button type="submit" name="simpan" class="btn btn-primary">Submit</button>
-                        <a href="index.php" class="btn btn-secondary">Kembali</a>
-                    </form>
+                    <div class="card-body">
+                        <h2>Tambah Dokter</h2>
+                        <form method="POST" class="mt-4">
+                            <div class="mb-3">
+                                <label>Nama Admin</label>
+                                <input type="text" name="nama_admin" class="form-control" value="<?= htmlspecialchars($data['nama_admin']) ?>" required>
+                            </div>
+                            <div class="mb-3">
+                                <label>Email Admin</label>
+                                <input type="email" name="email_admin" class="form-control" value="<?= htmlspecialchars($data['email_admin']) ?>" required>
+                            </div>
+                            <div class="mb-3">
+                                <label>No Telfon</label>
+                                <input type="number" name="no_telp" class="form-control" value="<?= htmlspecialchars($data['no_telp']) ?>" required>
+                            </div>
+                            <div class="mb-3">
+                                <label>Alamat Admin</label>
+                                <textarea name="alamat_admin" class="form-control"required><?= htmlspecialchars($data['alamat_admin']) ?></textarea>
+                            </div>
+                            <button type="submit" name="simpan" class="btn btn-success">Simpan</button>
+                            <a href="index.php" class="btn btn-secondary">Kembali</a>
+                        </form>
+                    </div>
 
 
                 </div>

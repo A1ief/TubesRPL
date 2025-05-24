@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Data Obat</title>
+    <title>Data Dokter</title>
 
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -25,9 +25,7 @@
 <body id="page-top" style="overflow:hidden">
 
     <div id="wrapper">
-        <!-- Sidebar -->
         <?php include('../../tamplates/sidebar.php'); ?>
-        <!-- End of Sidebar -->
 
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
@@ -35,21 +33,21 @@
 
                 <div class="container-fluid">
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">OBAT</h1>
-                        <a href="obat_excel.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                        <h1 class="h3 mb-0 text-gray-800">ADMIN</h1>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
 
                     <div class="card-body">
-                        <a href="tambah.php" class="btn btn-primary mb-3">+ Tambah Obat</a>
+                        <a href="tambah.php" class="btn btn-primary mb-3">+ Tambah Admin</a>
 
                         <?php
                         $limit = 5;
                         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
                         $offset = ($page - 1) * $limit;
 
-                        $result = $koneksi->query("SELECT * FROM tbl_obat LIMIT $limit OFFSET $offset");
-                        $total_rows = $koneksi->query("SELECT COUNT(*) AS total FROM tbl_obat ")->fetch_assoc()['total'];
+                        $result = $koneksi->query("SELECT * FROM tbl_admin LIMIT $limit OFFSET $offset");
+                        $total_rows = $koneksi->query("SELECT COUNT(*) AS total FROM tbl_admin")->fetch_assoc()['total'];
                         $total_pages = ceil($total_rows / $limit);
                         ?>
 
@@ -57,23 +55,25 @@
                             <table class="table table-bordered" width="100%" cellspacing="0">
                                 <thead class="table-primary">
                                     <tr class="text-center">
-                                        <th>Id Obat</th>
-                                        <th>Nama Obat</th>
-                                        <th>Dosis Obat</th>
-                                        <th>Harga</th>
+                                        <th>ID</th>
+                                        <th>Nama Admin</th>
+                                        <th>Email</th>
+                                        <th>No Telfon</th>
+                                        <th>Alamat</th>
                                         <th style="width: 132px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php while ($row = $result->fetch_assoc()) : ?>
                                         <tr class="text-center">
-                                            <td><?= $row['id_obat'] ?></td>
-                                            <td><?= $row['nama_obat'] ?></td>
-                                            <td><?= $row['dosis_obat'] ?></td>
-                                            <td>Rp<?= number_format($row['harga'], 0, ',', '.') ?></td>
+                                            <td><?= $row['id_admin'] ?></td>
+                                            <td><?= $row['nama_admin'] ?></td>
+                                            <td><?= $row['email_admin'] ?></td>
+                                            <td><?= $row['no_telp'] ?></td>
+                                            <td><?= $row['alamat_admin'] ?></td>
                                             <td>
-                                                <a href="edit.php?id=<?= $row['id_obat'] ?>" class="btn btn-warning btn-sm">Edit</a>
-                                                <a href="hapus.php?id=<?= $row['id_obat'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
+                                                <a href="edit.php?id=<?= $row['id_admin'] ?>" class="btn btn-warning btn-sm">Edit</a>
+                                                <a href="hapus.php?id=<?= $row['id_admin'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
                                             </td>
                                         </tr>
                                     <?php endwhile; ?>
@@ -121,7 +121,7 @@
         <i class="fas fa-angle-double-up"></i>
     </a>
 
-    <?= include('../../tamplates/script.php'); ?>
+    <?php include('../../tamplates/script.php'); ?>
 
 </body>
 
