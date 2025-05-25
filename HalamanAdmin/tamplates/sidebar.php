@@ -32,7 +32,7 @@
     <!-- Nav Item - Charts -->
     <li class="nav-item">
         <a class="nav-link" href="../../layouts/dokter/index.php">
-            <i class="fas fa-fw fa-chart-area"></i>
+            <i class="fas fa-fw fa-user-md"></i>
             <span>Dokter</span></a>
     </li>
 
@@ -60,8 +60,15 @@
     <!-- Nav Item - Obat -->
     <li class="nav-item">
         <a class="nav-link" href="../../layouts/detail/index.php">
-            <i class="fas fa-money-bill-wave-alt"></i>
+            <i class="fas fa-file-invoice-dollar"></i>
             <span>Detail Pembayaran</span></a>
+    </li>
+    
+    <!-- Nav Item - Rekam Medis -->
+    <li class="nav-item">
+        <a class="nav-link" href="../../layouts/rekam_medis/index.php">
+            <i class="fas fa-newspaper"></i>
+            <span>Rekam Medis</span></a>
     </li>
 
 

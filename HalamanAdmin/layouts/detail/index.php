@@ -14,30 +14,28 @@ $query = "
         (dp.jumlah * o.harga) AS subtotal_pembayaran
    FROM tbl_detail_pembayaran dp
    JOIN tbl_obat o ON dp.id_obat = o.id_obat
+   ORDER BY o.nama_obat ASC
    LIMIT $limit OFFSET $offset
 ";
 
+
 $result = $koneksi->query($query);
+
+$total_query = "
+   SELECT SUM(dp.jumlah * o.harga) AS total_semua
+   FROM tbl_detail_pembayaran dp
+   JOIN tbl_obat o ON dp.id_obat = o.id_obat
+";
+$total_result = $koneksi->query($total_query)->fetch_assoc();
+$total_semua = $total_result['total_semua'];
+
 
 $total_rows = $koneksi->query("SELECT COUNT(*) AS total FROM tbl_detail_pembayaran")->fetch_assoc()['total'];
 $total_pages = ceil($total_rows / $limit);
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Data Detail Pembayaran</title>
-    <!-- Custom fonts for this template-->
-    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet" />
-    <!-- Custom styles for this template-->
-    <link href="../../css/sb-admin-2.css" rel="stylesheet" />
-</head>
+<?php include('../../tamplates/head.php'); ?>
 
 <body id="page-top" style="overflow:hidden">
     <div id="wrapper">
@@ -58,7 +56,7 @@ $total_pages = ceil($total_rows / $limit);
                             <table class="table table-bordered" width="100%" cellspacing="0">
                                 <thead class="table-primary">
                                     <tr class="text-center">
-                                        <th>ID Detail</th>
+                                        <th>No</th>
                                         <th>Nama Obat</th>
                                         <th>ID Pembayaran</th>
                                         <th>Jumlah</th>
@@ -66,9 +64,10 @@ $total_pages = ceil($total_rows / $limit);
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php $no = $offset + 1; ?>
                                     <?php while ($row = $result->fetch_assoc()) : ?>
                                         <tr class="text-center">
-                                            <td><?= htmlspecialchars($row['id_detail']) ?></td>
+                                            <td><?= $no++ ?></td>
                                             <td><?= htmlspecialchars($row['nama_obat']) ?></td>
                                             <td><?= htmlspecialchars($row['id_pembayaran']) ?></td>
                                             <td><?= htmlspecialchars($row['jumlah']) ?></td>
@@ -76,6 +75,12 @@ $total_pages = ceil($total_rows / $limit);
                                         </tr>
                                     <?php endwhile; ?>
                                 </tbody>
+                                <tfoot class="table-danger">
+                                    <tr class="text-center font-weight-bold">
+                                        <td colspan="4">Total Keseluruhan</td>
+                                        <td>Rp <?= number_format($total_semua, 0, ',', '.') ?></td>
+                                    </tr>
+                                </tfoot>
                             </table>
                         </div>
 

@@ -34,55 +34,49 @@ if (isset($_POST['update'])) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Edit Pasien</title>
-    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
-</head>
+<?php include('../../tamplates/head.php'); ?>
+
 <body id="page-top">
-<div id="wrapper">
-    <?php include('../../tamplates/sidebar.php'); ?>
-    <div id="content-wrapper" class="d-flex flex-column">
-        <div id="content">
-            <?php include('../../tamplates/topbar.php'); ?>
-            <div class="container-fluid">
-                <h2 class="mt-4">Edit Pasien</h2>
-                <form method="POST">
-                    <div class="mb-3">
-                        <label>Nama Lengkap</label>
-                        <input type="text" name="nama_pasien" class="form-control" value="<?= htmlspecialchars($data['nama_pasien']) ?>" required>
-                    </div>
-                    <div class="mb-3">
-                        <label>Email</label>
-                        <input type="email" name="email_pasien" class="form-control" value="<?= htmlspecialchars($data['email_pasien']) ?>" required>
-                    </div>
-                    <div class="mb-3">
-                        <label>Nomor Telepon</label>
-                        <input type="text" name="no_telp" class="form-control" value="<?= htmlspecialchars($data['no_telp']) ?>" required>
-                    </div>
-                    <div class="mb-3">
-                        <label>Alamat</label>
-                        <textarea name="alamat_pasien" class="form-control" required><?= htmlspecialchars($data['alamat_pasien']) ?></textarea>
-                    </div>
-                    <button type="submit" name="update" class="btn btn-primary">Update</button>
-                    <a href="index.php" class="btn btn-secondary">Kembali</a>
-                </form>
-            </div>
-        </div>
-        <footer class="sticky-footer bg-white">
-            <div class="container my-auto">
-                <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Your Website 2025</span>
+    <div id="wrapper">
+        <?php include('../../tamplates/sidebar.php'); ?>
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <?php include('../../tamplates/topbar.php'); ?>
+                <div class="container-fluid">
+                    <h2 class="mt-4">Edit Pasien</h2>
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label>Nama Lengkap</label>
+                            <input type="text" name="nama_pasien" class="form-control" value="<?= htmlspecialchars($data['nama_pasien']) ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input type="email" name="email_pasien" class="form-control" value="<?= htmlspecialchars($data['email_pasien']) ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Nomor Telepon</label>
+                            <input type="text" name="no_telp" class="form-control" value="<?= htmlspecialchars($data['no_telp']) ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Alamat</label>
+                            <textarea name="alamat_pasien" class="form-control" required><?= htmlspecialchars($data['alamat_pasien']) ?></textarea>
+                        </div>
+                        <button type="submit" name="update" class="btn btn-primary">Update</button>
+                        <a href="index.php" class="btn btn-secondary">Kembali</a>
+                    </form>
                 </div>
             </div>
-        </footer>
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2025</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-</div>
-<a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-double-up"></i></a>
-<?= include('../../tamplates/script.php'); ?>
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-double-up"></i></a>
+    <?= include('../../tamplates/script.php'); ?>
 </body>
+
 </html>

@@ -39,15 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Edit Pembayaran</title>
-    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="../../css/sb-admin-2.css" rel="stylesheet">
-</head>
+<?php include('../../tamplates/head.php'); ?>
 
 <body id="page-top">
     <div id="wrapper">

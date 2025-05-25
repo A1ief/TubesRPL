@@ -93,6 +93,13 @@
                     <i class="fas fa-money-bill-wave-alt"></i>
                     <span>Detail Pembayaran</span></a>
             </li>
+            
+            <!-- Nav Item - Obat -->
+            <li class="nav-item">
+                <a class="nav-link" href="layouts/rekam_medis/index.php">
+                    <i class="fas fa-newspaper"></i>
+                    <span>Rekam Medis</span></a>
+            </li>
 
 
             <!-- Divider -->
@@ -304,7 +311,7 @@
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="../index.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>

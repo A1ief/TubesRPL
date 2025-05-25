@@ -52,18 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>Tambah Pembayaran Lengkap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- SB Admin 2 CSS -->
-    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
-    <link href="../../css/sb-admin-2.min.css" rel="stylesheet" />
-</head>
+<?php include('../../tamplates/head.php'); ?>
 
 <body id="page-top">
     <div id="wrapper">
