@@ -109,22 +109,22 @@
         </div><!-- End Welcome -->
 
         <div class="content row gy-4">
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-12 d-flex align-items-stretch">
             <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
               <h3>Tentang Klilnik Dian Kusuma Wijaya</h3>
               <p>
-                Klinik Dian Kusuma Wijaya adalah salah satu fasilitas pelayanan kesehatan yang terletak di Jalan Kusmanaji No. 40, Dusun Suko, Desa Sumberpucung, Kecamatan Sumberpucung, Kabupaten Malang, Jawa Timur. Klinik ini berdiri sejak tahun 2008, dan dikenal luas bukan hanya karena pelayanannya yang profesional dalam bidang medis, tetapi juga karena pendekatan sosial dan 
+                Klinik Dian Kusuma Wijaya adalah salah satu fasilitas pelayanan kesehatan yang terletak di Jalan Kusmanaji No. 40, Dusun Suko, Desa Sumberpucung, Kecamatan Sumberpucung, Kabupaten Malang, Jawa Timur. Klinik ini berdiri sejak tahun 2008, dan dikenal luas bukan hanya karena pelayanannya yang profesional dalam bidang medis, tetapi juga karena pendekatan sosial dan
                 kemanusiaannya yang sangat kuat.Klinik ini didirikan oleh dr. Dian Agung Anggraeny,
-                seorang dokter umum lulusan Universitas Wijaya Kusuma Surabaya. Beliau menjadi ikon pelayanan kesehatan masyarakat karena komitmennya untuk memberikan akses layanan kesehatan kepada seluruh lapisan masyarakat, terutama mereka yang kurang mampu dari segi ekonomi. Dr. Dian menjalankan klinik ini dengan semangat kemanusiaan yang tinggi, menempatkan pelayanan sebagai 
+                seorang dokter umum lulusan Universitas Wijaya Kusuma Surabaya. Beliau menjadi ikon pelayanan kesehatan masyarakat karena komitmennya untuk memberikan akses layanan kesehatan kepada seluruh lapisan masyarakat, terutama mereka yang kurang mampu dari segi ekonomi. Dr. Dian menjalankan klinik ini dengan semangat kemanusiaan yang tinggi, menempatkan pelayanan sebagai
                 bentuk ibadah dan pengabdian kepada masyarakat.
-                <h3> Visi</h3>
-                Menjadi pusat pelayanan kesehatan yang humanis, profesional, dan terjangkau, serta menjadi sahabat masyarakat dalam mewujudkan 
-                hidup sehat dan sejahtera.
-                 <h3> Misi</h3>
-                  <h6> 1. Memberikan layanan kesehatan yang berkualitas, cepat, dan tepat.</h6>
-                   <h6> 2. Menyediakan layanan dengan pendekatan kemanusiaan, bukan semata-mata berorientasi pada keuntungan. </h6> 
-                  <h6>  3. Menjadi pelopor klinik sosial dengan sistem pembayaran fleksibel bagi masyarakat kurang mampu. </h6> 
-                   <h6> 4. Mengedukasi masyarakat agar sadar pentingnya hidup sehat melalui berbagai kegiatan promotif dan preventif. </h6> 
+              <h3> Visi</h3>
+              <p>Menjadi pusat pelayanan kesehatan yang humanis, profesional, dan terjangkau, serta menjadi sahabat masyarakat dalam mewujudkan
+              hidup sehat dan sejahtera.</p>
+              <h3> Misi</h3>
+              <h6 class="text-light"> 1. Memberikan layanan kesehatan yang berkualitas, cepat, dan tepat.</h6>
+              <h6 class="text-light"> 2. Menyediakan layanan dengan pendekatan kemanusiaan, bukan semata-mata berorientasi pada keuntungan. </h6>
+              <h6 class="text-light"> 3. Menjadi pelopor klinik sosial dengan sistem pembayaran fleksibel bagi masyarakat kurang mampu. </h6>
+              <h6 class="text-light"> 4. Mengedukasi masyarakat agar sadar pentingnya hidup sehat melalui berbagai kegiatan promotif dan preventif. </h6>
               </p>
               <div class="text-center">
                 <a href="#about" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
@@ -132,7 +132,7 @@
             </div>
           </div><!-- End Why Box -->
 
-          <div class="col-lg-8 d-flex align-items-stretch">
+          <div class="col-lg-12 d-flex align-items-stretch">
             <div class="d-flex flex-column justify-content-center">
               <div class="row gy-4">
 
@@ -140,10 +140,10 @@
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
                     <i class="bi bi-heart-pulse-fill"></i>
                     <h4>Pelayanan yang Penuh Kasih dan Profesional</h4>
-                    <p>Pelayanan kesehatan di Klinik Dian Kusuma Wijaya 
-                      dilakukan dengan sepenuh hati demi memberikan manfaat yang nyata 
-                      bagi masyarakat. Kami berkomitmen untuk menyediakan layanan medis yang tidak hanya 
-                      profesional, tetapi juga memperhatikan kebutuhan sosial pasien, 
+                    <p>Pelayanan kesehatan di Klinik Dian Kusuma Wijaya
+                      dilakukan dengan sepenuh hati demi memberikan manfaat yang nyata
+                      bagi masyarakat. Kami berkomitmen untuk menyediakan layanan medis yang tidak hanya
+                      profesional, tetapi juga memperhatikan kebutuhan sosial pasien,
                       terutama mereka yang kurang mampu.</p>
                   </div>
                 </div><!-- End Icon Box -->
@@ -152,13 +152,13 @@
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
                     <i class="bi bi-lungs-fill"></i>
                     <h4>Mengutamakan Kemanusiaan dalam Setiap Tindakan</h4>
-                    <p>Kami percaya bahwa setiap orang 
-                      berhak atas pelayanan kesehatan 
-                      yang layak. Oleh karena itu, 
-                      Klinik Dian Kusuma Wijaya menghadirkan sistem 
+                    <p>Kami percaya bahwa setiap orang
+                      berhak atas pelayanan kesehatan
+                      yang layak. Oleh karena itu,
+                      Klinik Dian Kusuma Wijaya menghadirkan sistem
                       pembayaran yang fleksibel, termasuk dengan hasil bumi seperti sayur,
-                       ikan, atau ayam, sebagai bentuk kepedulian terhadap pasien yang 
-                       memiliki keterbatasan finansial.</p>
+                      ikan, atau ayam, sebagai bentuk kepedulian terhadap pasien yang
+                      memiliki keterbatasan finansial.</p>
                   </div>
                 </div><!-- End Icon Box -->
                 <div class="col-xl-4 d-flex align-items-stretch">
@@ -166,10 +166,10 @@
                     <i class="bi bi-prescription2"></i>
                     <h4>Melayani dengan Tulus dan Bertanggung Jawab</h4>
                     <p>Pelayanan kami tidak hanya berfokus pada
-                       pengobatan, tetapi juga pada pendampingan 
-                       dan edukasi kesehatan. Kami hadir untuk masyarakat 
-                       dengan pendekatan yang ramah, tulus, dan penuh tanggung jawab demi menciptakan
-                       lingkungan yang sehat dan sejahtera.</p>
+                      pengobatan, tetapi juga pada pendampingan
+                      dan edukasi kesehatan. Kami hadir untuk masyarakat
+                      dengan pendekatan yang ramah, tulus, dan penuh tanggung jawab demi menciptakan
+                      lingkungan yang sehat dan sejahtera.</p>
                   </div>
                 </div><!-- End Icon Box -->
 
@@ -191,74 +191,74 @@
             <a href="https://youtu.be/z_hmGMW6D5k?si=DawCD2VIud6DWvtw" class="glightbox pulsating-play-btn"></a>
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            
+
             <h3> Fasilitas Klinik</h3>
             <p>
               Klinik Dian Kusumua Wijaya Memilih Fasilitas cukup lengkap yaitu :
             </p>
             <ul>
               <li>
-                
+
                 <div>
                   <h5>Ruang Pendaftaran dan Tunggu: </h5>
-                  <p> Area untuk pasien mendaftar 
+                  <p> Area untuk pasien mendaftar
                     dan menunggu giliran pemeriksaan.</p>
-                    
+
                 </div>
               </li>
               <li>
                 <div>
                   <h5>Ruang Pemeriksaan Umum:</h5>
-                  <p> Tempat dokter melakukan 
+                  <p> Tempat dokter melakukan
                     pemeriksaan dan konsultasi medis.</p>
                 </div>
               </li>
               <li>
                 <div>
-                 <h5>Ruang Pemeriksaan Umum:</h5>
-                  <p> Tempat dokter melakukan 
+                  <h5>Ruang Pemeriksaan Umum:</h5>
+                  <p> Tempat dokter melakukan
                     pemeriksaan dan konsultasi medis.</p>
                 </div>
               </li>
               <li>
                 <div>
-                 <h5>Ruang Tindakan: </h5>
-                  <p>  Digunakan untuk prosedur medis ringan
-                     seperti injeksi,
-                     perawatan luka, dan tindakan minor lainnya.</p>
+                  <h5>Ruang Tindakan: </h5>
+                  <p> Digunakan untuk prosedur medis ringan
+                    seperti injeksi,
+                    perawatan luka, dan tindakan minor lainnya.</p>
                 </div>
               </li>
               <li>
-                
+
                 <div>
-                 <h5>Ruang Farmasi : </h5>
-                  <p> Menyediakan 
+                  <h5>Ruang Farmasi : </h5>
+                  <p> Menyediakan
                     obat-obatan yang diresepkan oleh dokter.</p>
                 </div>
               </li>
               <li>
-               
+
                 <div>
-                 <h5>Ruang Rawat Inap </h5>
-                  <p>   Untuk pasien yang memerlukan
-                     observasi atau perawatan lebih lanjut. </p>
+                  <h5>Ruang Rawat Inap </h5>
+                  <p> Untuk pasien yang memerlukan
+                    observasi atau perawatan lebih lanjut. </p>
                 </div>
               </li>
               <li>
-                
+
                 <div>
-                 <h5>Ruang Rapat</h5>
-                  <p>  Menyediakan 
-                    Ruangan Rapat digunakna untuk evaluasi dan rapat saat ada 
-                  kegitan penting yang a </p>
+                  <h5>Ruang Rapat</h5>
+                  <p> Menyediakan
+                    Ruangan Rapat digunakna untuk evaluasi dan rapat saat ada
+                    kegitan penting yang a </p>
                 </div>
               </li>
               <li>
-                
+
                 <div>
-                 <h5>Ruang Dokter </h5>
-                  <p>  Menyediakan Ruangan Dokter
-                     untuk konsultasi dan privasi dokter.</p>
+                  <h5>Ruang Dokter </h5>
+                  <p> Menyediakan Ruangan Dokter
+                    untuk konsultasi dan privasi dokter.</p>
                 </div>
               </li>
               </li>
@@ -270,7 +270,7 @@
       </div>
 
     </section><!-- /About Section -->
-    
+
     <!-- Stats Section -->
     <section id="stats" class="stats section light-background">
 
@@ -336,8 +336,8 @@
               <a href="#" class="stretched-link">
                 <h3>Pelayanan Umum</h3>
               </a>
-              <p>Klinik Dian Kusuma Wijaya menyediakan 
-                pelayanan kesehatan umum untuk semua kalangan. Pemeriksaan dilakukan oleh tenaga medis berpengalaman dengan pendekatan yang ramah dan penuh kepedulian. Layanan ini mencakup pemeriksaan rutin, pengobatan penyakit ringan hingga 
+              <p>Klinik Dian Kusuma Wijaya menyediakan
+                pelayanan kesehatan umum untuk semua kalangan. Pemeriksaan dilakukan oleh tenaga medis berpengalaman dengan pendekatan yang ramah dan penuh kepedulian. Layanan ini mencakup pemeriksaan rutin, pengobatan penyakit ringan hingga
                 menengah, serta rujukan bila diperlukan.</p>
             </div>
           </div><!-- End Service Item -->
@@ -350,8 +350,8 @@
               <a href="#" class="stretched-link">
                 <h3>Pelayanan Obat dan Farmasi</h3>
               </a>
-              <p>Klinik juga memiliki unit farmasi 
-                internal yang menyediakan berbagai macam obat-obatan sesuai resep dokter. Pasien akan mendapatkan edukasi penggunaan obat yang benar serta konsultasi 
+              <p>Klinik juga memiliki unit farmasi
+                internal yang menyediakan berbagai macam obat-obatan sesuai resep dokter. Pasien akan mendapatkan edukasi penggunaan obat yang benar serta konsultasi
                 ringan mengenai terapi yang dijalankan.</p>
             </div>
           </div><!-- End Service Item -->
@@ -364,10 +364,10 @@
               <a href="#" class="stretched-link">
                 <h3>Konsultasi Kesehatan dan Pemeriksaan Khusus</h3>
               </a>
-              <p>Tersedia layanan 
+              <p>Tersedia layanan
                 konsultasi untuk kesehatan ibu dan anak,
-                 pemeriksaan tekanan darah, gula darah, kolesterol, hingga tes kehamilan. Klinik juga terbuka untuk memberikan edukasi tentang\
-                 pola hidup sehat kepada masyarakat.</p>
+                pemeriksaan tekanan darah, gula darah, kolesterol, hingga tes kehamilan. Klinik juga terbuka untuk memberikan edukasi tentang\
+                pola hidup sehat kepada masyarakat.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -379,8 +379,8 @@
               <a href="#" class="stretched-link">
                 <h3>Khitan Gratis dan Program Sosial</h3>
               </a>
-              <p>Salah satu ciri khas Klinik Dian Kusuma Wijaya 
-                adalah pelayanan sosial seperti khitan gratis untuk masyarakat kurang mampu. Klinik membuka peluang donasi dan kerja sama dalam bentuk bantuan sosial, serta menerapkan sistem pembayaran yang 
+              <p>Salah satu ciri khas Klinik Dian Kusuma Wijaya
+                adalah pelayanan sosial seperti khitan gratis untuk masyarakat kurang mampu. Klinik membuka peluang donasi dan kerja sama dalam bentuk bantuan sosial, serta menerapkan sistem pembayaran yang
                 fleksibel seperti "bayar pakai hasil bumi.</p>
               <a href="#" class="stretched-link"></a>
             </div>
@@ -394,7 +394,7 @@
               <a href="#" class="stretched-link">
                 <h3>Home Visit (Kunjungan ke Rumah)</h3>
               </a>
-              <p>Untuk pasien yang tidak memungkinkan datang ke klinik, tersedia layanan kunjungan rumah oleh perawat atau dokter. Ini menjadi solusi efektif bagi pasien lansia, pasien 
+              <p>Untuk pasien yang tidak memungkinkan datang ke klinik, tersedia layanan kunjungan rumah oleh perawat atau dokter. Ini menjadi solusi efektif bagi pasien lansia, pasien
                 dengan keterbatasan mobilitas, atau kondisi darurat ringan.</p>
               <a href="#" class="stretched-link"></a>
             </div>
@@ -417,508 +417,508 @@
 
       </div>
 
-p
-    <!-- Departments Section -->
-    <section id="departments" class="departments section">
+      p
+      <!-- Departments Section -->
+      <section id="departments" class="departments section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Dokumentadi Ruangan Klinik Dian Kusuma Wijaya</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Dokumentadi Ruangan Klinik Dian Kusuma Wijaya</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#departments-tab-1">Cardiology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-2">Neurology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-3">Hepatology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-4">Pediatrics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-5">Eye Care</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="departments-tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Cardiology</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="HalamanUtama/assets/img/departments-1.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="departments-tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="HalamanUtama/assets/img/departments-2.jpg" alt="" class="img-fluid">
+          <div class="row">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#departments-tab-1">Cardiology</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-2">Neurology</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-3">Hepatology</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-4">Pediatrics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-5">Eye Care</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="departments-tab-1">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Cardiology</h3>
+                      <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="HalamanUtama/assets/img/departments-1.jpg" alt="" class="img-fluid">
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="tab-pane" id="departments-tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="HalamanUtama/assets/img/departments-3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="departments-tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="HalamanUtama/assets/img/departments-4.jpg" alt="" class="img-fluid">
+                <div class="tab-pane" id="departments-tab-2">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Et blanditiis nemo veritatis excepturi</h3>
+                      <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                      <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="HalamanUtama/assets/img/departments-2.jpg" alt="" class="img-fluid">
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="tab-pane" id="departments-tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                <div class="tab-pane" id="departments-tab-3">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                      <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                      <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="HalamanUtama/assets/img/departments-3.jpg" alt="" class="img-fluid">
+                    </div>
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="HalamanUtama/assets/img/departments-5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="tab-pane" id="departments-tab-4">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
+                      <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                      <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="HalamanUtama/assets/img/departments-4.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="departments-tab-5">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                      <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                      <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="HalamanUtama/assets/img/departments-5.jpg" alt="" class="img-fluid">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Departments Section -->
-
-    <!-- Doctors Section -->
-    <section id="doctors" class="doctors section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Dokter</h2>
-        <p>Dokter Dan Perawat Yang Ada Di Klinik Dian Kusuma Wijaya</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-1.JPG" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4> dr. DIAN AGUNG ANGGRAENY</h4>
-                <span>Dokter di Klinik Dian Kusuma Wijaya/span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Anesthesiologist</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cardiology</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Neurosurgeon</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
 
         </div>
 
-      </div>
+      </section><!-- /Departments Section -->
 
-    </section><!-- /Doctors Section -->
+      <!-- Doctors Section -->
+      <section id="doctors" class="doctors section">
 
-    <!-- Faq Section -->
-    <section id="faq" class="faq section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Dokter</h2>
+          <p>Dokter Dan Perawat Yang Ada Di Klinik Dian Kusuma Wijaya</p>
+        </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <div class="container">
 
-      <div class="container">
+          <div class="row gy-4">
 
-        <div class="row justify-content-center">
-
-          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="HalamanUtama/assets/img/doctors/dokter1.jpg" class="img-fluid" alt="" ></div>
+                <div class="member-info">
+                  <h4> dr. DIAN AGUNG ANGGRAENY</h4>
+                  <span>Dokter di Klinik Dian Kusuma Wijaya</span>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
+            </div><!-- End Team Member -->
 
-              <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Anesthesiologist</span>
+                  <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
+            </div><!-- End Team Member -->
 
-              <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>Cardiology</span>
+                  <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
+            </div><!-- End Team Member -->
 
-              <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Neurosurgeon</span>
+                  <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
+            </div><!-- End Team Member -->
 
-              <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
-          </div><!-- End Faq Column-->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <div class="container">
-
-        <div class="row align-items-center">
-
-          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
-            <h3>Testimonials</h3>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-            </p>
           </div>
 
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+        </div>
 
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
+      </section><!-- /Doctors Section -->
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="faq-container">
+
+                <div class="faq-item faq-active">
+                  <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                  <div class="faq-content">
+                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                  <div class="faq-content">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                  <div class="faq-content">
+                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                  <div class="faq-content">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                  <div class="faq-content">
+                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                  <div class="faq-content">
+                    <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+              </div>
+
+            </div><!-- End Faq Column-->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Faq Section -->
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section">
+
+        <div class="container">
+
+          <div class="row align-items-center">
+
+            <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+              <h3>Testimonials</h3>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+              </p>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
                   }
-                }
-              </script>
-              <div class="swiper-wrapper">
+                </script>
+                <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo &amp; Founder</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
                     </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
+                  </div><!-- End testimonial item -->
 
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Sara Wilsson</h3>
+                          <h4>Designer</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
                     </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
+                  </div><!-- End testimonial item -->
 
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Jena Karlis</h3>
+                          <h4>Store Owner</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
                     </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
+                  </div><!-- End testimonial item -->
 
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Matt Brandon</h3>
+                          <h4>Freelancer</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
                     </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
+                  </div><!-- End testimonial item -->
 
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
-                      <div>
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>John Larson</h3>
+                          <h4>Entrepreneur</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
                         </div>
                       </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
                     </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
+                  </div><!-- End testimonial item -->
 
+                </div>
+                <div class="swiper-pagination"></div>
               </div>
-              <div class="swiper-pagination"></div>
+
             </div>
 
           </div>
 
         </div>
 
-      </div>
+      </section><!-- /Testimonials Section -->
 
-    </section><!-- /Testimonials Section -->
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery section">
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0">
 
-        <div class="row g-0">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+          </div>
 
         </div>
 
-      </div>
+      </section><!-- /Gallery Section -->
 
-    </section><!-- /Gallery Section -->
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+          <iframe
+            style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1684974261385!2d112.42511987493743!3d-8.204297891818522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788278b5952d41%3A0x1d346d5a240107e2!2sKLINIK%20DIAN%20KUSUMA%20WIJAYA!5e0!3m2!1sid!2sid!4v1716617040256!5m2!1sid!2sid"
+            frameborder="0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-                <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-  <iframe
-    style="border:0; width: 100%; height: 270px;"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1684974261385!2d112.42511987493743!3d-8.204297891818522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788278b5952d41%3A0x1d346d5a240107e2!2sKLINIK%20DIAN%20KUSUMA%20WIJAYA!5e0!3m2!1sid!2sid!4v1716617040256!5m2!1sid!2sid"
-    frameborder="0"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
-
-      <!-- End Google Maps -->
-       <!-- /Contact Section -->
+        <!-- End Google Maps -->
+        <!-- /Contact Section -->
 
   </main>
 
@@ -937,26 +937,26 @@ p
             <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-  <a href="https://twitter.com/klinikdian" target="_blank" title="Twitter Klinik"><i class="bi bi-twitter-x"></i></a>
-  <a href="https://www.facebook.com/klinikdian.kusumawijaya/" target="_blank" title="Facebook Klinik"><i class="bi bi-facebook"></i></a>
-  <a href="https://www.instagram.com/klinikdiankusumawijaya1/" target="_blank" title="Instagram Klinik"><i class="bi bi-instagram"></i></a>
-  <a href="https://www.tiktok.com/@klinik.dian.kusuma" target="_blank" title="TikTok Klinik"><i class="bi bi-tiktok"></i></a>
-  <a href="https://www.youtube.com/@klinikdiankusumawijaya" target="_blank" title="YouTube Klinik"><i class="bi bi-youtube"></i></a>
-</div>
+            <a href="https://twitter.com/klinikdian" target="_blank" title="Twitter Klinik"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/klinikdian.kusumawijaya/" target="_blank" title="Facebook Klinik"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/klinikdiankusumawijaya1/" target="_blank" title="Instagram Klinik"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@klinik.dian.kusuma" target="_blank" title="TikTok Klinik"><i class="bi bi-tiktok"></i></a>
+            <a href="https://www.youtube.com/@klinikdiankusumawijaya" target="_blank" title="YouTube Klinik"><i class="bi bi-youtube"></i></a>
+          </div>
 
+        </div>
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Medilab</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Medilab</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-    </div>
 
   </footer>
 
