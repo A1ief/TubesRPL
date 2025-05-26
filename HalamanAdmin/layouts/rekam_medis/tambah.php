@@ -36,7 +36,7 @@ $dokter = $koneksi->query("SELECT id_dokter, nama_lengkap FROM tbl_dokter");
                 <?php include('../../tamplates/topbar.php'); ?>
 
                 <div class="container-fluid">
-                    <h1 class="h3 mb-4 text-gray-800">Tambah Rekam Medis</h1>
+                    <h1 class="h3 mb-4 text-gray-800">+ Tambah Rekam Medis</h1>
 
                     <form method="POST">
                         <div class="form-group">

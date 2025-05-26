@@ -67,7 +67,7 @@ if (isset($_POST['simpan'])) {
 
                     <!-- Content -->
                     <div class="card-body">
-                        <h2>Tambah Dokter</h2>
+                        <h2>Tambah Admin</h2>
                         <form method="POST" class="mt-4">
                             <div class="mb-3">
                                 <label>Nama Admin</label>

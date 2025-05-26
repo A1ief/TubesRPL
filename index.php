@@ -111,9 +111,20 @@
         <div class="content row gy-4">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-              <h3>Why Choose Medilab?</h3>
+              <h3>Tentang Klilnik Dian Kusuma Wijaya</h3>
               <p>
-                CATATV
+                Klinik Dian Kusuma Wijaya adalah salah satu fasilitas pelayanan kesehatan yang terletak di Jalan Kusmanaji No. 40, Dusun Suko, Desa Sumberpucung, Kecamatan Sumberpucung, Kabupaten Malang, Jawa Timur. Klinik ini berdiri sejak tahun 2008, dan dikenal luas bukan hanya karena pelayanannya yang profesional dalam bidang medis, tetapi juga karena pendekatan sosial dan 
+                kemanusiaannya yang sangat kuat.Klinik ini didirikan oleh dr. Dian Agung Anggraeny,
+                seorang dokter umum lulusan Universitas Wijaya Kusuma Surabaya. Beliau menjadi ikon pelayanan kesehatan masyarakat karena komitmennya untuk memberikan akses layanan kesehatan kepada seluruh lapisan masyarakat, terutama mereka yang kurang mampu dari segi ekonomi. Dr. Dian menjalankan klinik ini dengan semangat kemanusiaan yang tinggi, menempatkan pelayanan sebagai 
+                bentuk ibadah dan pengabdian kepada masyarakat.
+                <h3> Visi</h3>
+                Menjadi pusat pelayanan kesehatan yang humanis, profesional, dan terjangkau, serta menjadi sahabat masyarakat dalam mewujudkan 
+                hidup sehat dan sejahtera.
+                 <h3> Misi</h3>
+                  <h6> 1. Memberikan layanan kesehatan yang berkualitas, cepat, dan tepat.</h6>
+                   <h6> 2. Menyediakan layanan dengan pendekatan kemanusiaan, bukan semata-mata berorientasi pada keuntungan. </h6> 
+                  <h6>  3. Menjadi pelopor klinik sosial dengan sistem pembayaran fleksibel bagi masyarakat kurang mampu. </h6> 
+                   <h6> 4. Mengedukasi masyarakat agar sadar pentingnya hidup sehat melalui berbagai kegiatan promotif dan preventif. </h6> 
               </p>
               <div class="text-center">
                 <a href="#about" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
@@ -127,24 +138,38 @@
 
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                    <i class="bi bi-clipboard-data"></i>
-                    <h4>Corporis voluptates officia eiusmod</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <i class="bi bi-heart-pulse-fill"></i>
+                    <h4>Pelayanan yang Penuh Kasih dan Profesional</h4>
+                    <p>Pelayanan kesehatan di Klinik Dian Kusuma Wijaya 
+                      dilakukan dengan sepenuh hati demi memberikan manfaat yang nyata 
+                      bagi masyarakat. Kami berkomitmen untuk menyediakan layanan medis yang tidak hanya 
+                      profesional, tetapi juga memperhatikan kebutuhan sosial pasien, 
+                      terutama mereka yang kurang mampu.</p>
                   </div>
                 </div><!-- End Icon Box -->
 
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                    <i class="bi bi-gem"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <i class="bi bi-lungs-fill"></i>
+                    <h4>Mengutamakan Kemanusiaan dalam Setiap Tindakan</h4>
+                    <p>Kami percaya bahwa setiap orang 
+                      berhak atas pelayanan kesehatan 
+                      yang layak. Oleh karena itu, 
+                      Klinik Dian Kusuma Wijaya menghadirkan sistem 
+                      pembayaran yang fleksibel, termasuk dengan hasil bumi seperti sayur,
+                       ikan, atau ayam, sebagai bentuk kepedulian terhadap pasien yang 
+                       memiliki keterbatasan finansial.</p>
                   </div>
                 </div><!-- End Icon Box -->
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                    <i class="bi bi-inboxes"></i>
-                    <h4>Labore consequatur incidid dolore</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <i class="bi bi-prescription2"></i>
+                    <h4>Melayani dengan Tulus dan Bertanggung Jawab</h4>
+                    <p>Pelayanan kami tidak hanya berfokus pada
+                       pengobatan, tetapi juga pada pendampingan 
+                       dan edukasi kesehatan. Kami hadir untuk masyarakat 
+                       dengan pendekatan yang ramah, tulus, dan penuh tanggung jawab demi menciptakan
+                       lingkungan yang sehat dan sejahtera.</p>
                   </div>
                 </div><!-- End Icon Box -->
 
@@ -162,35 +187,80 @@
         <div class="row gy-4 gx-5">
 
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
-            <img src="HalamanUtama/assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="HalamanUtama/assets/img/about.JPG" class="img-fluid" alt="">
+            <a href="https://youtu.be/z_hmGMW6D5k?si=DawCD2VIud6DWvtw" class="glightbox pulsating-play-btn"></a>
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>About Us</h3>
+            
+            <h3> Fasilitas Klinik</h3>
             <p>
-              penjelasan
+              Klinik Dian Kusumua Wijaya Memilih Fasilitas cukup lengkap yaitu :
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-vial-circle-check"></i>
+                
                 <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  <h5>Ruang Pendaftaran dan Tunggu: </h5>
+                  <p> Area untuk pasien mendaftar 
+                    dan menunggu giliran pemeriksaan.</p>
+                    
                 </div>
               </li>
               <li>
-                <i class="fa-solid fa-pump-medical"></i>
                 <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  <h5>Ruang Pemeriksaan Umum:</h5>
+                  <p> Tempat dokter melakukan 
+                    pemeriksaan dan konsultasi medis.</p>
                 </div>
               </li>
               <li>
-                <i class="fa-solid fa-heart-circle-xmark"></i>
                 <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                 <h5>Ruang Pemeriksaan Umum:</h5>
+                  <p> Tempat dokter melakukan 
+                    pemeriksaan dan konsultasi medis.</p>
                 </div>
+              </li>
+              <li>
+                <div>
+                 <h5>Ruang Tindakan: </h5>
+                  <p>  Digunakan untuk prosedur medis ringan
+                     seperti injeksi,
+                     perawatan luka, dan tindakan minor lainnya.</p>
+                </div>
+              </li>
+              <li>
+                
+                <div>
+                 <h5>Ruang Farmasi : </h5>
+                  <p> Menyediakan 
+                    obat-obatan yang diresepkan oleh dokter.</p>
+                </div>
+              </li>
+              <li>
+               
+                <div>
+                 <h5>Ruang Rawat Inap </h5>
+                  <p>   Untuk pasien yang memerlukan
+                     observasi atau perawatan lebih lanjut. </p>
+                </div>
+              </li>
+              <li>
+                
+                <div>
+                 <h5>Ruang Rapat</h5>
+                  <p>  Menyediakan 
+                    Ruangan Rapat digunakna untuk evaluasi dan rapat saat ada 
+                  kegitan penting yang a </p>
+                </div>
+              </li>
+              <li>
+                
+                <div>
+                 <h5>Ruang Dokter </h5>
+                  <p>  Menyediakan Ruangan Dokter
+                     untuk konsultasi dan privasi dokter.</p>
+                </div>
+              </li>
               </li>
             </ul>
           </div>
@@ -200,7 +270,7 @@
       </div>
 
     </section><!-- /About Section -->
-
+    
     <!-- Stats Section -->
     <section id="stats" class="stats section light-background">
 
@@ -251,8 +321,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>PELAYANAN KLINIK DIAN KUSUMA WIJAYA</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -265,9 +334,11 @@
                 <i class="fas fa-heartbeat"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>Pelayanan Umum</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <p>Klinik Dian Kusuma Wijaya menyediakan 
+                pelayanan kesehatan umum untuk semua kalangan. Pemeriksaan dilakukan oleh tenaga medis berpengalaman dengan pendekatan yang ramah dan penuh kepedulian. Layanan ini mencakup pemeriksaan rutin, pengobatan penyakit ringan hingga 
+                menengah, serta rujukan bila diperlukan.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -277,9 +348,11 @@
                 <i class="fas fa-pills"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Pelayanan Obat dan Farmasi</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>Klinik juga memiliki unit farmasi 
+                internal yang menyediakan berbagai macam obat-obatan sesuai resep dokter. Pasien akan mendapatkan edukasi penggunaan obat yang benar serta konsultasi 
+                ringan mengenai terapi yang dijalankan.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -289,9 +362,12 @@
                 <i class="fas fa-hospital-user"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Konsultasi Kesehatan dan Pemeriksaan Khusus</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>Tersedia layanan 
+                konsultasi untuk kesehatan ibu dan anak,
+                 pemeriksaan tekanan darah, gula darah, kolesterol, hingga tes kehamilan. Klinik juga terbuka untuk memberikan edukasi tentang\
+                 pola hidup sehat kepada masyarakat.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -301,9 +377,11 @@
                 <i class="fas fa-dna"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Khitan Gratis dan Program Sosial</h3>
               </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <p>Salah satu ciri khas Klinik Dian Kusuma Wijaya 
+                adalah pelayanan sosial seperti khitan gratis untuk masyarakat kurang mampu. Klinik membuka peluang donasi dan kerja sama dalam bentuk bantuan sosial, serta menerapkan sistem pembayaran yang 
+                fleksibel seperti "bayar pakai hasil bumi.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -314,9 +392,10 @@
                 <i class="fas fa-wheelchair"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Velit Doloremque</h3>
+                <h3>Home Visit (Kunjungan ke Rumah)</h3>
               </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <p>Untuk pasien yang tidak memungkinkan datang ke klinik, tersedia layanan kunjungan rumah oleh perawat atau dokter. Ini menjadi solusi efektif bagi pasien lansia, pasien 
+                dengan keterbatasan mobilitas, atau kondisi darurat ringan.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -327,9 +406,9 @@
                 <i class="fas fa-notes-medical"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Dolori Architecto</h3>
+                <h3>Layanan Ambulans – Jemput & Antar Pasien</h3>
               </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <p>Klinik Dian Kusuma Wijaya menyediakan layanan ambulans untuk menjemput pasien dari rumah menuju klinik atau rumah sakit rujukan, serta mengantar pasien kembali ke rumah setelah perawatan.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -338,74 +417,13 @@
 
       </div>
 
-    </section><!-- /Services Section -->
-
-    <!-- Appointment Section -->
-    <section id="appointment" class="appointment section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Appointment</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 form-group mt-3">
-              <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="department" id="department" class="form-select" required="">
-                <option value="">Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
-              </select>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="doctor" id="doctor" class="form-select" required="">
-                <option value="">Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-          </div>
-          <div class="mt-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-            <div class="text-center"><button type="submit">Make an Appointment</button></div>
-          </div>
-        </form>
-
-      </div>
-
-    </section><!-- /Appointment Section -->
-
+p
     <!-- Departments Section -->
     <section id="departments" class="departments section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Departments</h2>
+        <h2>Dokumentadi Ruangan Klinik Dian Kusuma Wijaya</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -506,8 +524,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Doctors</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Dokter</h2>
+        <p>Dokter Dan Perawat Yang Ada Di Klinik Dian Kusuma Wijaya</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -516,17 +534,10 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="HalamanUtama/assets/img/doctors/doctors-1.JPG" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Medical Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
+                <h4> dr. DIAN AGUNG ANGGRAENY</h4>
+                <span>Dokter di Klinik Dian Kusuma Wijaya/span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -813,12 +824,6 @@
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-0">
@@ -901,79 +906,19 @@
         <h2>Contact</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
+                <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+  <iframe
+    style="border:0; width: 100%; height: 270px;"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1684974261385!2d112.42511987493743!3d-8.204297891818522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788278b5952d41%3A0x1d346d5a240107e2!2sKLINIK%20DIAN%20KUSUMA%20WIJAYA!5e0!3m2!1sid!2sid!4v1716617040256!5m2!1sid!2sid"
+    frameborder="0"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
 
-      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div><!-- End Google Maps -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Location</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
+      <!-- End Google Maps -->
+       <!-- /Contact Section -->
 
   </main>
 
@@ -992,56 +937,12 @@
             <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
+  <a href="https://twitter.com/klinikdian" target="_blank" title="Twitter Klinik"><i class="bi bi-twitter-x"></i></a>
+  <a href="https://www.facebook.com/klinikdian.kusumawijaya/" target="_blank" title="Facebook Klinik"><i class="bi bi-facebook"></i></a>
+  <a href="https://www.instagram.com/klinikdiankusumawijaya1/" target="_blank" title="Instagram Klinik"><i class="bi bi-instagram"></i></a>
+  <a href="https://www.tiktok.com/@klinik.dian.kusuma" target="_blank" title="TikTok Klinik"><i class="bi bi-tiktok"></i></a>
+  <a href="https://www.youtube.com/@klinikdiankusumawijaya" target="_blank" title="YouTube Klinik"><i class="bi bi-youtube"></i></a>
+</div>
 
       </div>
     </div>
