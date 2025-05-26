@@ -70,15 +70,8 @@
                 <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                   <ul>
                     <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
@@ -127,7 +120,7 @@
               <h6 class="text-light"> 4. Mengedukasi masyarakat agar sadar pentingnya hidup sehat melalui berbagai kegiatan promotif dan preventif. </h6>
               </p>
               <div class="text-center">
-                <a href="#about" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+                <a href="#about" class="more-btn"><span>About</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -187,7 +180,7 @@
         <div class="row gy-4 gx-5">
 
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
-            <img src="HalamanUtama/assets/img/about.JPG" class="img-fluid" alt="">
+            <img src="HalamanUtama/assets/img/video.jpg" class="img-fluid" alt="">
             <a href="https://youtu.be/z_hmGMW6D5k?si=DawCD2VIud6DWvtw" class="glightbox pulsating-play-btn"></a>
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
@@ -281,32 +274,24 @@
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="fa-solid fa-user-doctor"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Doctors</p>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Dokter Dan Perawat</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="fa-regular fa-hospital"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Departments</p>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Jumlah Ruangan</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="fas fa-flask"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Research Labs</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="fas fa-award"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Jumlah Pegawai</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -604,8 +589,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Frequently Asked Questions</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <h2>Penjelasan Beberapa Pnyakit Umum</h2>
+          <p></p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -617,49 +602,55 @@
               <div class="faq-container">
 
                 <div class="faq-item faq-active">
-                  <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                  <h3>Hipertensi (Tekanan Darah Tinggi)</h3>
                   <div class="faq-content">
-                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                    <p>Hipertensi adalah kondisi di mana tekanan darah terhadap dinding arteri terlalu tinggi, sering tidak menunjukkan gejala dan baru terdeteksi saat terjadi komplikasi. Gejala yang mungkin muncul meliputi sakit kepala, pusing, mimisan, atau kelelahan, namun seringkali tidak terasa. Pencegahannya meliputi pola makan rendah garam, olahraga teratur, 
+                      menghindari stres, serta rutin memeriksakan tekanan darah.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                  <h3>Diabetes Tipe 2:</h3>
                   <div class="faq-content">
-                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    <p> Diabetes tipe 2 terjadi ketika tubuh tidak menggunakan insulin secara efektif, menyebabkan kadar gula darah meningkat secara bertahap tanpa disadari. Gejala yang bisa dirasakan antara lain sering haus, sering buang air kecil, luka yang sulit sembuh, dan penglihatan kabur. Pencegahan dapat dilakukan dengan menjaga berat badan ideal, makan makanan sehat, olahraga rutin, 
+                      dan cek gula darah secara berkala.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                  <h3>Kolesterol Tinggi:</h3>
                   <div class="faq-content">
-                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                    <p>Kolesterol tinggi adalah kondisi meningkatnya kadar lemak dalam darah yang dapat menyumbat pembuluh darah dan memicu penyakit jantung atau stroke. Gejalanya sering tidak terasa, namun dalam beberapa kasus bisa muncul nyeri dada atau lemak di bawah kulit sekitar mata. Pencegahan dilakukan dengan mengurangi konsumsi lemak jenuh, berhenti merokok, rajin berolahraga, dan melakukan
+                       pemeriksaan darah secara rutin.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                  <h3>Alergi Kulit (Dermatitis Alergi):</h3>
                   <div class="faq-content">
-                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    <p>Alergi kulit adalah reaksi tubuh terhadap zat tertentu seperti debu, makanan, bahan kimia, logam, atau produk perawatan yang menyebabkan iritasi pada kulit. Gejala yang muncul biasanya berupa kulit kemerahan, gatal hebat, ruam, pembengkakan, atau kulit kering dan mengelupas. Untuk mencegahnya, penting menghindari pemicu alergi, menggunakan produk hipoalergenik, menjaga kelembapan kulit, serta segera berkonsultasi ke 
+                      dokter jika muncul reaksi alergi.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                  <h3>Kudis (Scabies):</h3>
                   <div class="faq-content">
-                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                    <p>Kudis adalah penyakit kulit menular yang disebabkan oleh tungau kecil bernama Sarcoptes scabiei yang masuk ke dalam lapisan kulit dan menyebabkan gatal luar biasa, terutama saat malam hari. Gejalanya meliputi gatal hebat, munculnya bintik-bintik atau ruam kecil, luka bekas garukan, dan sering menyerang area sela jari, pergelangan tangan, pinggang, atau area selangkangan. Pencegahan meliputi menjaga kebersihan tubuh dan lingkungan, tidak berbagi pakaian atau handuk, serta segera mengobati bila ada gejala untuk 
+                      mencegah penularan ke orang lain.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                  <h3>Panu (Tinea Versicolor):</h3>
                   <div class="faq-content">
-                    <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                    <p>Panu adalah infeksi jamur pada kulit yang disebabkan oleh pertumbuhan jamur Malassezia secara berlebihan, biasanya karena keringat berlebih, cuaca lembap, atau kebersihan tubuh yang kurang. Gejalanya berupa bercak putih, cokelat, atau kemerahan di kulit, yang terasa gatal terutama saat berkeringat, dan biasanya muncul di punggung, leher, atau dada. Pencegahan dapat dilakukan dengan menjaga kebersihan kulit, menghindari pakaian lembap terlalu lama, dan menggunakan 
+                      sabun antijamur bila perlu.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
@@ -673,141 +664,6 @@
         </div>
 
       </section><!-- /Faq Section -->
-
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section">
-
-        <div class="container">
-
-          <div class="row align-items-center">
-
-            <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
-              <h3>Testimonials</h3>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
-            </div>
-
-            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": "auto",
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    }
-                  }
-                </script>
-                <div class="swiper-wrapper">
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
-                        <div>
-                          <h3>Saul Goodman</h3>
-                          <h4>Ceo &amp; Founder</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
-                        <div>
-                          <h3>Sara Wilsson</h3>
-                          <h4>Designer</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
-                        <div>
-                          <h3>Jena Karlis</h3>
-                          <h4>Store Owner</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
-                        <div>
-                          <h3>Matt Brandon</h3>
-                          <h4>Freelancer</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
-                        <div>
-                          <h3>John Larson</h3>
-                          <h4>Entrepreneur</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
 
                 </div>
                 <div class="swiper-pagination"></div>
