@@ -1,6 +1,13 @@
 <?php include('../koneksi.php'); ?>
 
 <?php
+
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: ../login.php");
+    exit;
+}
+
 // Query untuk grafik pembayaran per tanggal
 $grafikQuery = "
     SELECT tanggal_pembayaran, SUM(dp.subtotal_pembayaran) AS total
@@ -35,6 +42,8 @@ $data_pembayaran = $result_pembayaran->fetch_assoc();
 // Query 4: Hitung jumlah obat
 $result_obat = $koneksi->query("SELECT COUNT(*) as total_obat FROM tbl_obat");
 $data_obat = $result_obat->fetch_assoc();
+
+$namaUser = $_SESSION['nama'];
 ?>
 
 
@@ -331,7 +340,7 @@ $data_obat = $result_obat->fetch_assoc();
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Maya Via</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo isset($_SESSION['nama']) ? $_SESSION['nama'] : 'User'; ?></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -351,7 +360,7 @@ $data_obat = $result_obat->fetch_assoc();
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../index.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>

@@ -79,7 +79,7 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="cta-btn d-none d-sm-block" href="HalamanAdmin/index.php">Login</a>
+        <a class="cta-btn d-none d-sm-block" href="HalamanUtama/login.php">Login</a>
 
       </div>
 
@@ -112,7 +112,7 @@
                 bentuk ibadah dan pengabdian kepada masyarakat.
               <h3> Visi</h3>
               <p>Menjadi pusat pelayanan kesehatan yang humanis, profesional, dan terjangkau, serta menjadi sahabat masyarakat dalam mewujudkan
-              hidup sehat dan sejahtera.</p>
+                hidup sehat dan sejahtera.</p>
               <h3> Misi</h3>
               <h6 class="text-light"> 1. Memberikan layanan kesehatan yang berkualitas, cepat, dan tepat.</h6>
               <h6 class="text-light"> 2. Menyediakan layanan dengan pendekatan kemanusiaan, bukan semata-mata berorientasi pada keuntungan. </h6>
@@ -178,11 +178,21 @@
       <div class="container">
 
         <div class="row gy-4 gx-5">
-
+          <!-- KIRI: Dua video -->
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
-            <img src="HalamanUtama/assets/img/video.jpg" class="img-fluid" alt="">
-            <a href="https://youtu.be/z_hmGMW6D5k?si=DawCD2VIud6DWvtw" class="glightbox pulsating-play-btn"></a>
+            <!-- Video 1 -->
+            <div class="mb-4 position-relative">
+              <img src="HalamanUtama/assets/img/video.jpg" class="img-fluid" alt="Video 1">
+              <a href="https://youtu.be/z_hmGMW6D5k?si=DawCD2VIud6DWvtw" class="glightbox pulsating-play-btn position-absolute top-50 start-50 translate-middle"></a>
+            </div>
+            <!-- Video 2 -->
+            <div class="position-relative">
+              <img src="HalamanUtama/assets/img/video.jpg" class="img-fluid" alt="Video 2">
+              <a href="https://youtu.be/z_hmGMW6D5k?si=DawCD2VIud6DWvtw" class="glightbox pulsating-play-btn position-absolute top-50 start-50 translate-middle"></a>
+            </div>
           </div>
+
+          <!-- KANAN: Tulisan Fasilitas -->
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
 
             <h3> Fasilitas Klinik</h3>
@@ -257,9 +267,7 @@
               </li>
             </ul>
           </div>
-
         </div>
-
       </div>
 
     </section><!-- /About Section -->
@@ -271,7 +279,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
             <i class="fa-solid fa-user-doctor"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
@@ -279,7 +287,7 @@
             </div>
           </div><!-- End Stats Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
             <i class="fa-regular fa-hospital"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
@@ -287,7 +295,7 @@
             </div>
           </div><!-- End Stats Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center">
             <i class="fas fa-flask"></i>
             <div class="stats-item">
               <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
@@ -518,14 +526,18 @@
           <div class="row gy-4">
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="team-member d-flex align-items-start">
-                <div class="pic"><img src="HalamanUtama/assets/img/doctors/dokter1.jpg" class="img-fluid" alt="" ></div>
-                <div class="member-info">
-                  <h4> dr. DIAN AGUNG ANGGRAENY</h4>
+              <div class="team-member d-flex align-items-center">
+                <div class="pic me-3">
+                  <img src="HalamanUtama/assets/img/doctors/dokter1.jpg" class="img-fluid" alt="" style="max-height: 200px;">
+                </div>
+                <div class="member-info d-flex flex-column justify-content-center text-center w-100" style="min-height: 150px;">
+                  <h4>dr. DIAN AGUNG ANGGRAENY</h4>
                   <span>Dokter di Klinik Dian Kusuma Wijaya</span>
                 </div>
               </div>
-            </div><!-- End Team Member -->
+            </div>
+
+            <!-- End Team Member -->
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
               <div class="team-member d-flex align-items-start">
@@ -537,7 +549,7 @@
               </div>
             </div><!-- End Team Member -->
 
-          
+
 
           </div>
 
@@ -565,7 +577,7 @@
                 <div class="faq-item faq-active">
                   <h3>Hipertensi (Tekanan Darah Tinggi)</h3>
                   <div class="faq-content">
-                    <p>Hipertensi adalah kondisi di mana tekanan darah terhadap dinding arteri terlalu tinggi, sering tidak menunjukkan gejala dan baru terdeteksi saat terjadi komplikasi. Gejala yang mungkin muncul meliputi sakit kepala, pusing, mimisan, atau kelelahan, namun seringkali tidak terasa. Pencegahannya meliputi pola makan rendah garam, olahraga teratur, 
+                    <p>Hipertensi adalah kondisi di mana tekanan darah terhadap dinding arteri terlalu tinggi, sering tidak menunjukkan gejala dan baru terdeteksi saat terjadi komplikasi. Gejala yang mungkin muncul meliputi sakit kepala, pusing, mimisan, atau kelelahan, namun seringkali tidak terasa. Pencegahannya meliputi pola makan rendah garam, olahraga teratur,
                       menghindari stres, serta rutin memeriksakan tekanan darah.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -574,7 +586,7 @@
                 <div class="faq-item">
                   <h3>Diabetes Tipe 2:</h3>
                   <div class="faq-content">
-                    <p> Diabetes tipe 2 terjadi ketika tubuh tidak menggunakan insulin secara efektif, menyebabkan kadar gula darah meningkat secara bertahap tanpa disadari. Gejala yang bisa dirasakan antara lain sering haus, sering buang air kecil, luka yang sulit sembuh, dan penglihatan kabur. Pencegahan dapat dilakukan dengan menjaga berat badan ideal, makan makanan sehat, olahraga rutin, 
+                    <p> Diabetes tipe 2 terjadi ketika tubuh tidak menggunakan insulin secara efektif, menyebabkan kadar gula darah meningkat secara bertahap tanpa disadari. Gejala yang bisa dirasakan antara lain sering haus, sering buang air kecil, luka yang sulit sembuh, dan penglihatan kabur. Pencegahan dapat dilakukan dengan menjaga berat badan ideal, makan makanan sehat, olahraga rutin,
                       dan cek gula darah secara berkala.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -584,7 +596,7 @@
                   <h3>Kolesterol Tinggi:</h3>
                   <div class="faq-content">
                     <p>Kolesterol tinggi adalah kondisi meningkatnya kadar lemak dalam darah yang dapat menyumbat pembuluh darah dan memicu penyakit jantung atau stroke. Gejalanya sering tidak terasa, namun dalam beberapa kasus bisa muncul nyeri dada atau lemak di bawah kulit sekitar mata. Pencegahan dilakukan dengan mengurangi konsumsi lemak jenuh, berhenti merokok, rajin berolahraga, dan melakukan
-                       pemeriksaan darah secara rutin.</p>
+                      pemeriksaan darah secara rutin.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
@@ -592,7 +604,7 @@
                 <div class="faq-item">
                   <h3>Alergi Kulit (Dermatitis Alergi):</h3>
                   <div class="faq-content">
-                    <p>Alergi kulit adalah reaksi tubuh terhadap zat tertentu seperti debu, makanan, bahan kimia, logam, atau produk perawatan yang menyebabkan iritasi pada kulit. Gejala yang muncul biasanya berupa kulit kemerahan, gatal hebat, ruam, pembengkakan, atau kulit kering dan mengelupas. Untuk mencegahnya, penting menghindari pemicu alergi, menggunakan produk hipoalergenik, menjaga kelembapan kulit, serta segera berkonsultasi ke 
+                    <p>Alergi kulit adalah reaksi tubuh terhadap zat tertentu seperti debu, makanan, bahan kimia, logam, atau produk perawatan yang menyebabkan iritasi pada kulit. Gejala yang muncul biasanya berupa kulit kemerahan, gatal hebat, ruam, pembengkakan, atau kulit kering dan mengelupas. Untuk mencegahnya, penting menghindari pemicu alergi, menggunakan produk hipoalergenik, menjaga kelembapan kulit, serta segera berkonsultasi ke
                       dokter jika muncul reaksi alergi.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -601,7 +613,7 @@
                 <div class="faq-item">
                   <h3>Kudis (Scabies):</h3>
                   <div class="faq-content">
-                    <p>Kudis adalah penyakit kulit menular yang disebabkan oleh tungau kecil bernama Sarcoptes scabiei yang masuk ke dalam lapisan kulit dan menyebabkan gatal luar biasa, terutama saat malam hari. Gejalanya meliputi gatal hebat, munculnya bintik-bintik atau ruam kecil, luka bekas garukan, dan sering menyerang area sela jari, pergelangan tangan, pinggang, atau area selangkangan. Pencegahan meliputi menjaga kebersihan tubuh dan lingkungan, tidak berbagi pakaian atau handuk, serta segera mengobati bila ada gejala untuk 
+                    <p>Kudis adalah penyakit kulit menular yang disebabkan oleh tungau kecil bernama Sarcoptes scabiei yang masuk ke dalam lapisan kulit dan menyebabkan gatal luar biasa, terutama saat malam hari. Gejalanya meliputi gatal hebat, munculnya bintik-bintik atau ruam kecil, luka bekas garukan, dan sering menyerang area sela jari, pergelangan tangan, pinggang, atau area selangkangan. Pencegahan meliputi menjaga kebersihan tubuh dan lingkungan, tidak berbagi pakaian atau handuk, serta segera mengobati bila ada gejala untuk
                       mencegah penularan ke orang lain.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -610,7 +622,7 @@
                 <div class="faq-item">
                   <h3>Panu (Tinea Versicolor):</h3>
                   <div class="faq-content">
-                    <p>Panu adalah infeksi jamur pada kulit yang disebabkan oleh pertumbuhan jamur Malassezia secara berlebihan, biasanya karena keringat berlebih, cuaca lembap, atau kebersihan tubuh yang kurang. Gejalanya berupa bercak putih, cokelat, atau kemerahan di kulit, yang terasa gatal terutama saat berkeringat, dan biasanya muncul di punggung, leher, atau dada. Pencegahan dapat dilakukan dengan menjaga kebersihan kulit, menghindari pakaian lembap terlalu lama, dan menggunakan 
+                    <p>Panu adalah infeksi jamur pada kulit yang disebabkan oleh pertumbuhan jamur Malassezia secara berlebihan, biasanya karena keringat berlebih, cuaca lembap, atau kebersihan tubuh yang kurang. Gejalanya berupa bercak putih, cokelat, atau kemerahan di kulit, yang terasa gatal terutama saat berkeringat, dan biasanya muncul di punggung, leher, atau dada. Pencegahan dapat dilakukan dengan menjaga kebersihan kulit, menghindari pakaian lembap terlalu lama, dan menggunakan
                       sabun antijamur bila perlu.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -626,116 +638,116 @@
 
       </section><!-- /Faq Section -->
 
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      </div>
 
+      </div>
+
+      </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
             </div>
+          </div><!-- End Gallery Item -->
 
-          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
-        </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
-      </section><!-- /Testimonials Section -->
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
-      <!-- Gallery Section -->
-      <section id="gallery" class="gallery section">
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
-        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
-          <div class="row g-0">
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-lg-3 col-md-4">
-              <div class="gallery-item">
-                <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                  <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            </div><!-- End Gallery Item -->
-
-          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
 
         </div>
 
-      </section><!-- /Gallery Section -->
+      </div>
 
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
+    </section><!-- /Gallery Section -->
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-          <iframe
-            style="border:0; width: 100%; height: 270px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1684974261385!2d112.42511987493743!3d-8.204297891818522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788278b5952d41%3A0x1d346d5a240107e2!2sKLINIK%20DIAN%20KUSUMA%20WIJAYA!5e0!3m2!1sid!2sid!4v1716617040256!5m2!1sid!2sid"
-            frameborder="0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-        <!-- End Google Maps -->
-        <!-- /Contact Section -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe
+          style="border:0; width: 100%; height: 270px;"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1684974261385!2d112.42511987493743!3d-8.204297891818522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788278b5952d41%3A0x1d346d5a240107e2!2sKLINIK%20DIAN%20KUSUMA%20WIJAYA!5e0!3m2!1sid!2sid!4v1716617040256!5m2!1sid!2sid"
+          frameborder="0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <!-- End Google Maps -->
+      <!-- /Contact Section -->
 
   </main>
 
